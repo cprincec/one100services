@@ -14,6 +14,18 @@
   } */
 }
 
+@media (min-width:32.5em) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width:64em) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -29,7 +41,7 @@ main {
 }
 
 .colorful-letters span {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   display: inline-block;
   animation: colorCycle 10s infinite;
